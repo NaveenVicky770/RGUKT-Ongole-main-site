@@ -1,0 +1,117 @@
+/*
+.main_images {
+    margin: 0.5% 2%;
+}
+*/
+
+.logo-title {
+    margin-left: 25px;
+    padding: 1%;
+}
+
+.title {
+    color: #0f3057;
+    margin-bottom: 0px;
+}
+
+.header-top {
+    background: #C00404;
+}
+
+.campus {
+    margin-bottom: 0px;
+}
+
+.img-tiles {
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.admin-cards {
+    width: 125px;
+    height: 125px;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+.navbar {
+    min-height: 20px;
+    background: #1b262c;
+/*    z-index: 5;*/
+}
+
+.navbar-nav {
+    background: #1a0000;
+}
+
+.footer {
+    height: 75px;
+    background: #1b262c;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+.news {
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1%;
+    height: 20rem;
+    text-overflow: ellipsis;
+    overflow: auto;
+}
+
+.news-box a {
+    font-size: 1rem;
+    color: #333;
+}
+
+.admini {
+    border: 1px;
+    border-style: solid;
+}
+
+
+.number-section {
+    background-image: url("../images/d.png");
+    background-size: cover;
+    height: 50vh;
+    /*
+     Add the blur effect 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+*/
+}
+
+
+
+.text-scrolling,
+a {
+    color: black;
+}
+
+
+/*Department Section*/
+
+.for-slick-slider .items {
+    width: 90%;
+    padding: 3%;
+}
+
+/*
+.slick-slide {
+    margin: 10px
+}
+*/
+
+/*
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+*/
+
+.slick-prev::before, .slick-next::before { color: red !important; }
+
