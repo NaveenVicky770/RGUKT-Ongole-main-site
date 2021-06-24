@@ -1,0 +1,472 @@
+html,
+body {
+    font-size: 17px;
+    overflow-x: hidden;
+}
+
+.logo-title {
+
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+.title {
+    color: #0f3057;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.header-top {
+    background: #C00404;
+}
+.stick {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+    width: 100%;
+}
+.dep-hei{
+    height: 32rem;
+}
+
+.announce-tag {
+    color: white;
+    background: #C00404;
+    text-align: right;
+    padding-top: 0.5%;
+    font-weight: 500;
+}
+.arrow-right:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -7px;
+    margin: auto;
+}
+.announce-tags {
+   
+}
+
+.announcement {
+    background: #f4f0eb;
+    padding-top: 0.5%;
+    width: 100%;
+}
+
+
+.custom-carosel {
+/*    height: 62vh !important;*/
+}
+
+.campus {
+    margin-bottom: 0px;
+}
+
+.img-tiles {
+    background-size: cover;
+    max-width: 100%;
+}
+
+.img-tiles2 {
+    background-size: cover;
+    max-width: 100%;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.panel .panel-body {
+    padding: 20px;
+    background: #eff3f5;
+    height: 300px;
+}
+
+.admin-section {
+    background: #eff3f5;
+}
+
+.admin-cards {
+    width: 125px;
+    height: 125px;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+.ad-name {
+    font-size: 25px;
+    margin-bottom: 4%;
+    background: #1b262c;
+    color: white;
+    margin-top: 2%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.4%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff !important;
+    background-color: #1b262c;
+}
+
+.navbar {
+    /*    min-height: 20px;*/
+    align-items: flex-start;
+    background: #1b262c;
+    /*    z-index: 5;*/
+    height: auto;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.navbar-nav {
+    /*    background: #1a0000;*/
+}
+
+.nav-item-back:hover .nav-link {
+    background: #7195a8;
+}
+
+
+.footer {
+    height: auto;
+    background: #1b262c;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    padding: 1%;
+}
+
+
+.news {
+    background: white;
+    padding: 1%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.news-box a {
+    font-size: 16px;
+    color: #333;
+    font-style: oblique;
+    
+}
+.news-box{
+    margin-bottom: 0.5rem;
+}
+
+
+.admini {
+    border: 1px;
+    border-style: solid;
+}
+
+
+
+
+.number-section {
+    background-image: url("../images/blur.png");
+    background-size: cover;
+    height: auto;
+    /*
+     Add the blur effect 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+*/
+}
+
+.icons-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.booked-weather-160x36 {
+    margin-top: 15px !important;
+}
+
+.sall a {
+    color: #007bff;
+    font-size: 14px;
+
+}
+
+.pipe {
+    color: red;
+}
+
+
+/*Department Section*/
+.dep {
+    padding: 0% 7%;
+}
+
+
+
+.slick-prev::before,
+.slick-next::before {
+
+
+    color: red !important;
+}
+
+
+.slick-next,
+.slick-prev {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.carousel-indicators {
+    /*    z-index: 4;*/
+
+}
+
+
+
+.dropdown-menu {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background: #c00404;
+    color: white;
+}
+
+.dropdown-item {
+    background: #1b262c;
+    color: white;
+}
+
+
+.welcome-note {
+    position: absolute;
+    top: 30%;
+    bottom: 45%;
+    height: 22vh;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    background: black;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.welcome-note p {
+    font-weight: 500;
+
+    /*    z-index: 100000;*/
+}
+
+.text-marquee a{
+    color: black;
+}
+
+/*Media Queries*/
+
+@media(max-width:577px) {
+    
+    
+    .footer{
+        padding: 4%;
+    }
+    
+    .title {
+    font-size: 18px;
+    color: #0f3057;
+    margin-bottom: 0px;
+    font-weight: bold;
+        
+}
+    
+    .ad-name {
+    font-size: 20px;
+    margin-bottom: 4%;
+    background: #1b262c;
+    color: white;
+    margin-top: 2%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.4%;
+}
+
+
+    .news-box a {
+        font-size: 14px;
+        color: #333;
+    }
+
+
+    .small-card {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .news {
+        background: white;
+        padding: 1%;
+        height: 40vh;
+
+        overflow: hidden;
+    }
+
+
+
+    .tagline {
+        font-size: 10px;
+    }
+
+    .img-tiles {
+        height: 150px;
+        padding: 2px;
+    }
+
+    .img-tiles2 {
+        height: 150px;
+        padding-left: 20px;
+        margin-bottom: 4px;
+    }
+
+    .panel .panel-body {
+        height: 100px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 768px) body {
+    font-size: 85%;
+}
+
+@media(max-width:992px) {
+
+
+    .custom-carosel {
+        height: 20vh !important;
+    }
+
+
+    .ad {
+        padding: 10px 20px;
+    }
+
+    .number-section {
+        padding: 30px 30px;
+        height: auto;
+        font-weight: bold;
+    }
+
+    .icons-text {
+        font-size: 14px;
+    }
+
+    .number-section .text-white {
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+
+    .news {
+        height: auto;
+        padding: 25px;
+    }
+}
+
+
+@media(min-width:992px) {
+
+    .number-section,
+    text-white {
+        font-size: 25px;
+    }
+
+    .number-section,
+    h2 {
+        font-size: 30px;
+    }
+
+    .number-section {
+        padding: 50px 75px;
+    }
+    .caro-img{
+        height: 450px;
+    }
+
+}
+
+.header__topmenu {
+    background: #C00404;
+    position: relative;
+
+}
+
+.header__topmenu a {
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: initial;
+}
+
+
+ul {
+    margin-bottom: 0.25rem;
+}
+
+.tagline {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+.small-card {
+    padding: 8px 8px;
+}
+
+.section1 {
+    position: relative;
+}
+
+.sall {
+    position: absolute;
+    bottom: 0px;
+    color: blue;
+    background: white;
+}
+
+
+
+
+.social-media {
+    height: 20px;
+    width: 20px;
+}
+
+.s-icons {
+    padding-right: 0 !important;
+    margin-left: 6rem !important;
+}
+
+.weat {
+    padding-left: 0;
+}
